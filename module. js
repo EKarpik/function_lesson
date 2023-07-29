@@ -1,0 +1,7 @@
+export function greet (person) {
+    console.log(`Приветули ${person}!`)
+}
+
+export const bye = (name) => {
+    console.log('Пока ' + name)
+}
